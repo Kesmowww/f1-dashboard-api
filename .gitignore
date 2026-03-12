@@ -1,0 +1,51 @@
+# ──────────────────────────────────────────
+#  .NET / ASP.NET Core
+# ──────────────────────────────────────────
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+nuget.config
+
+# Publish output
+publish/
+**/publish/
+
+# Secrets & Config sensible
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.pfx
+*.p12
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Logs & Runtime
+*.log
+*.tmp
+*.temp
+Logs/
+TestResults/
