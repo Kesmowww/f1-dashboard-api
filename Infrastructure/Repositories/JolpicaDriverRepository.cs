@@ -33,11 +33,16 @@ public class JolpicaDriverRepository(HttpClient httpClient): IDriverRepository
         //Add the data to the driver list
         foreach (var item in standings)
         {
+            
+            // Some driver have not a position (DNS, DSQ)
+            var positionText = item.GetProperty("positionText").GetString();
+            var position = int.TryParse(positionText, out var p) ? p : 0;
+            
             //For each item in the standings list
             drivers.Add(new Driver
             {
                 //We add the data to the driver
-                Position   = int.Parse(item.GetProperty("position").GetString()!),
+                Position   = position,
                 Points     = double.Parse(item.GetProperty("points").GetString()!),
                 Wins       = int.Parse(item.GetProperty("wins").GetString()!),
                 FirstName  = item.GetProperty("Driver").GetProperty("givenName").GetString()!,
