@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "tiFWnY3DwPI=",
+  "dgSpecHash": "gfctotdmmIc=",
   "success": true,
   "projectFilePath": "/Users/abdelelidrissi/RiderProjects/f1-DashBoard/Api/Api.csproj",
   "expectedPackageFiles": [
     "/Users/abdelelidrissi/.nuget/packages/microsoft.aspnetcore.openapi/10.0.1/microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
-    "/Users/abdelelidrissi/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
-    "/Users/abdelelidrissi/.nuget/packages/system.text.json/8.0.5/system.text.json.8.0.5.nupkg.sha512"
+    "/Users/abdelelidrissi/.nuget/packages/microsoft.openapi/2.4.1/microsoft.openapi.2.4.1.nupkg.sha512",
+    "/Users/abdelelidrissi/.nuget/packages/swashbuckle.aspnetcore.swagger/10.1.4/swashbuckle.aspnetcore.swagger.10.1.4.nupkg.sha512",
+    "/Users/abdelelidrissi/.nuget/packages/swashbuckle.aspnetcore.swaggergen/10.1.4/swashbuckle.aspnetcore.swaggergen.10.1.4.nupkg.sha512",
+    "/Users/abdelelidrissi/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.1.4/swashbuckle.aspnetcore.swaggerui.10.1.4.nupkg.sha512"
   ],
   "logs": []
 }
